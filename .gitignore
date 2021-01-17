@@ -1,0 +1,12 @@
+# build
+dist
+dist-*
+.env
+
+# dependencies
+yarn-error.log
+node_modules
+
+
+out.dot
+dep.svg

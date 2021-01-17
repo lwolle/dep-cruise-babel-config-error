@@ -1,0 +1,44 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "useBuiltIns": "entry",
+                "corejs": "3"
+            }
+        ],
+        "@babel/preset-typescript",
+        [
+            "@babel/preset-react",
+            {
+                "targets": {
+                    "node": "current"
+                }
+            }
+        ]
+    ],
+    "ignore": [
+        "node_modules"
+    ],
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "alias": {
+                    "src": "./src",
+                    "assets": "./assets"
+                }
+            }
+        ],
+        "@babel/plugin-proposal-object-rest-spread",
+        "@babel/plugin-proposal-export-default-from",
+        "@babel/plugin-proposal-class-properties",
+        [
+            "@babel/plugin-transform-runtime",
+            {
+                "regenerator": true,
+                "version": "3"
+            }
+        ]
+    ]
+}
