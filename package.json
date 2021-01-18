@@ -34,7 +34,7 @@
         "babel-loader": "^8.0.6",
         "babel-plugin-module-resolver": "^3.2.0",
         "copy-webpack-plugin": "^5.1.1",
-        "dependency-cruiser": "^9.21.6",
+        "dependency-cruiser": "9.21.5",
         "file-loader": "^6.2.0",
         "html-replace-webpack-plugin": "^2.5.6",
         "html-webpack-plugin": "^4.0.4",

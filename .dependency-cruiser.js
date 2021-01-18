@@ -2,9 +2,6 @@ module.exports = {
     forbidden: [
     ],
     options: {
-        babelConfig:{
-            fileName: 'babel.config.json'
-        },
         /* conditions specifying which files not to follow further when encountered:
          - path: a regular expression to match
          - dependencyTypes: see https://github.com/sverweij/dependency-cruiser/blob/master/doc/rules-reference.md#dependencytypes
